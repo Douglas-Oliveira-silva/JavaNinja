@@ -1,4 +1,4 @@
-package Nivel_Intermediario.Heranca;
+package Nivel_Intermediario.Heranca_Interface;
 
 public class Main {
     public static void main(String[] args) {
@@ -29,5 +29,16 @@ public class Main {
         Hinata.aldeia = "Aldeia da Folha";
         Hinata.idade = 16;
         Hinata.ByakuganAtivado();
+
+        //Objeto 5
+        Boruto Boruto = new Boruto();
+        Boruto.nome = "Boruto Hyuga Uzumaki";
+        Boruto.aldeia = "Aldeia da Folha";
+        Boruto.idade = 10;
+        Boruto.ModoSanninAtivado();
+        Boruto.AtivarJougan();
+        Boruto.AtivarOKarma();
+
+
     }
 }

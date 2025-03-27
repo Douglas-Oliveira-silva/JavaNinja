@@ -1,4 +1,4 @@
-package Nivel_Intermediario.Heranca;
+package Nivel_Intermediario.Heranca_Interface;
 
 public class Haruno extends Ninja{
     public void AtivarCura(){

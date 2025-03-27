@@ -1,4 +1,4 @@
-package Nivel_Intermediario.Heranca;
+package Nivel_Intermediario.Heranca_Interface;
 
 public class Ninja {
 
