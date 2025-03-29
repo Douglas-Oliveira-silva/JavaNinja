@@ -1,13 +1,20 @@
 package Nivel_Intermediario.Hokages;
 
-public class Hokages {
+public abstract class Hokages {
 
     String nome;
     int idade;
     boolean vivoOuNao;
+    String aldeia;
+    int missoes;
+    double saldoBancario;
+    double altura;
+
+    public abstract void sabedoriaHokage();
 
     // Construtor vazio, sem args
-    public Hokages (){ }
+    public Hokages (){
+    }
 
     // Criar um construtor com args
     public Hokages (String nome) {
